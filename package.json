@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "ofseed.github.io",
+  "version": "0.1.0",
+  "description": "Yi Ming's blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofseed/ofseed.github.io.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Yi Ming",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ofseed/ofseed.github.io/issues"
+  },
+  "homepage": "https://github.com/ofseed/ofseed.github.io#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  }
+}
